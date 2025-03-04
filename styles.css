@@ -1,0 +1,248 @@
+/* General styling for the body */
+body>section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Styling for the Titlecard section begins */
+#Titlecard{
+    flex-direction: column;
+    background-image: url(assets/Mountain1.jpeg);
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size:cover;
+}
+#Titlecard>h1{
+    color: rgb(255, 242, 0);
+    font-size: 4em;
+}
+#Titlecard>h4{
+    color: white;
+    font-size: 14px;
+}
+#Titlecard>i{
+    font-size: 5em;
+    color: rgb(255,242,0);
+}
+/* Styling for the Hero Section begins */
+#Hero{
+    background-image: url(assets/Mountain2.jpeg);
+    background-size: cover;
+    height: 400px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-left: 25px;
+}
+#Hero>div{
+    color: rgb(255,255,255);
+    width: 50%;
+}
+/* General styling for h2 elements that will be present throughout the page */
+h2{
+    color: rgb(255, 242, 0);
+    font-size: 2em;
+    width: 25%;
+}
+/* Styles all buttons present on the page to present a uniformed look */
+button{
+    background-color: rgb(255, 242, 0);
+    border-radius: 15%;
+}
+/*Generic styling for h3 elements to have the same color */
+h3{
+    color: rgb(255, 242, 0);
+}
+/* Styles the Parks section and all of its children elements */
+#Parks{
+    background-image: url(assets/Mountain3.jpeg);
+    background-size: cover;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+#tours{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 10px;
+}
+#Brews{
+    height: 300px;
+    width: 25%;
+    background-image: url(assets/aurora.jpeg);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+#Brews>i{
+    position: absolute;
+    bottom: 0;
+    font-size: 2em;
+    color: rgb(255, 242, 0);
+}
+#Brews>p{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+#City{
+    height: 300px;
+    width: 25%;
+    background-image: url(assets/Fjord1.jpeg);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+#City>i{
+    position: absolute;
+    bottom: 0;
+    font-size: 2em;
+}
+#City>p{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+#Museum{
+    height: 300px;
+    width: 25%;
+    background-image: url(assets/Cabin1.jpeg);
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+#Museum>i{
+    position: absolute;
+    bottom: 0;
+    font-size: 2em;
+}
+#Museum>p{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+}
+/* Styling of the About section begins */
+#About{
+    background-image: url(assets/Mountain6.jpeg);
+    background-size: cover;
+    height: 400px;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding-left: 25px;
+}
+#About>div{
+    color: rgb(255,255,255);
+    width: 50%;
+}
+#About>div>h5{
+    text-emphasis: 400;
+}
+/* Styling needed for the Accolades section begins here */
+#Accolades{
+    background-image: url(assets/Mountain5.jpeg);
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.accolade{
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 15%;
+    text-align: center;
+}
+.accolade>p{
+    color: rgb(255,255,255);
+}
+.accolade>p>span{
+    color:rgb(255, 242, 0);
+    font-size: 2em;
+}
+/* Author section styling begins */
+#Author{
+    background-image: url(assets/Forest1.jpeg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: rgb(255,255,255);
+    flex-direction: column;
+    text-align: center;
+}
+#Author>p{
+    width: 50%;
+}
+#Author>i{
+    position: absolute;
+    bottom: 0;
+    font-size: 5em;
+    color: rgb(255, 242, 0);
+    padding-bottom: 20px;
+}
+#Author>img{
+    border-radius: 50%;
+}
+/* Styling for the photos section begins */
+#Photos{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#Photos>i{
+    font-size: 2em;
+    color: rgb(255, 242, 0);
+    position: absolute;
+}
+/* Styles the right and left chevron of the photo section */
+#RChev{
+    right:5px;
+}
+#LChev{
+    left: 5px;
+}
+/*Styling for the footer's content in the Contact section */
+#Contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(assets/MountainRange.jpeg);
+    background-size: cover;
+    height: 500px;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding-right: 5%;
+}
+#forms>input{
+    background-color: rgba(255,255,255,0);
+    border: 2px solid rgb(255,255,255);
+}
+/*Makes all placeholder text white */
+::placeholder{
+    color: rgb(255,255,255);
+}
+
+#message{
+    background-color: rgba(255,255,255,0);
+    border: 2px solid rgb(255,255,255);
+}
+#forms>button{
+    width: 20%;
+}
+#icons{
+    color: rgb(255, 242, 0);
+    font-size: 1.15em;
+}
+#Contactinfo{
+    color: rgb(255,255,255);
+}
