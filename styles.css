@@ -101,6 +101,7 @@ h3{
     position: absolute;
     bottom: 0;
     font-size: 2em;
+    color: rgb(255, 242, 0);
 }
 #City>p{
     position: absolute;
@@ -119,6 +120,7 @@ h3{
     position: absolute;
     bottom: 0;
     font-size: 2em;
+    color: rgb(255, 242, 0);
 }
 #Museum>p{
     position: absolute;
